@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-const Greetings = (props) => 
-  <div>Hey you! {props.firstName} {props.lastName}!</div>;
+const Greetings = ({firstName, lastName}) => 
+  <div>Hey you! {firstName} {lastName}!</div>;
 
 const App = () => (
   <div className="App">
