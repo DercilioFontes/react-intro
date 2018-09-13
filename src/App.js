@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Greetings from './Greetings';
+import SimpleForm from './SimpleForm';
 
 const App = () => (
   <div className="App">
@@ -10,7 +11,7 @@ const App = () => (
       <h1 className="App-title">Welcome to React</h1>
     </header>
     <br />
-    <Greetings firstName="Dercilio" lastName="Fontes"/>
+    <SimpleForm />
   </div>
 );
 
