@@ -1,9 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-
-const Greetings = ({firstName, lastName}) => 
-  <div>Hey you! {firstName} {lastName}!</div>;
+import Greetings from './Greetings';
 
 const App = () => (
   <div className="App">
